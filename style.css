@@ -1,0 +1,35 @@
+body {
+    background-color: brown;
+}
+
+img {
+    width: 75%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: antiquewhite;
+}
+
+#page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: goldenrod;
+}
+
+.address {
+    font-style: italic;
+    color: brown;
+}
+
+.hours {
+    font-weight: bold;
+    color: #333;
+}
