@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadContacts: () => (/* binding */ loadContacts)\n/* harmony export */ });\nfunction loadContacts() {\n\n    let content = document.querySelector(\"#content\");\n\n    content.innerHTML = \n\n    `\n    <div id=\"header\">\n    <ul>\n        <li><button>HOME</button></li>\n        <li><button>MENU</button></li>\n        <li><button>CONTACT</button></li>\n    </ul>\n    </div>\n    <div id=\"contact-container\">\n        <div class=\"contact-info\">\n            <div class=\"contact-title\">Contact Details</div>\n            <div class=\"contact-detail\">Email: info@example.com</div>\n            <div class=\"contact-detail\">Phone: (123) 456-7890</div>\n            <div class=\"contact-detail\">Address: 123 Main Street, Cityville</div>\n        </div>\n        <div class=\"contact-info\">\n            <div class=\"contact-title\">Opening Hours</div>\n            <div class=\"contact-detail\">Monday - Friday: 8:00 AM - 6:00 PM</div>\n            <div class=\"contact-detail\">Saturday: 9:00 AM - 4:00 PM</div>\n            <div class=\"contact-detail\">Sunday: Closed</div>\n        </div>\n        <div class=\"contact-info\">\n            <div class=\"contact-title\">Social Media</div>\n            <div class=\"contact-detail\">\n                Follow us on <a href=\"https://www.facebook.com/example\" target=\"_blank\">Facebook</a> and <a href=\"https://www.twitter.com/example\" target=\"_blank\">Twitter</a> for updates.\n            </div>\n        </div>\n    </div>\n    `;\n    console.log(\"loading contacts done\");\n};\n\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/contact.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./init */ \"./src/init.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\n\n(0,_init__WEBPACK_IMPORTED_MODULE_0__.initPage)();\n(0,_menu__WEBPACK_IMPORTED_MODULE_1__.loadMenu)();\n\n//# sourceURL=webpack://odin-restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _init__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./init */ \"./src/init.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n(0,_init__WEBPACK_IMPORTED_MODULE_0__.initPage)();\n(0,_menu__WEBPACK_IMPORTED_MODULE_1__.loadMenu)();\n(0,_contact__WEBPACK_IMPORTED_MODULE_2__.loadContacts)();\n\n//# sourceURL=webpack://odin-restaurant-page/./src/index.js?");
 
 /***/ }),
 
