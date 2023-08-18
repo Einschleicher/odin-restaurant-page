@@ -17,7 +17,7 @@ img {
     background-color: antiquewhite;
 }
 
-#page, #menu {
+#page, #menu, #contact-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -57,4 +57,16 @@ th, td {
 }
 th {
     background-color: #f2f2f2;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact-detail {
+    font-size: 16px;
 }
